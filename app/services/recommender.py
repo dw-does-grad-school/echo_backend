@@ -6,7 +6,7 @@ import faiss
 import torch
 from transformers import CLIPModel, CLIPProcessor
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 MODELS_DIR = BASE_DIR / "models"
 
 FAISS_PATH = MODELS_DIR / "wikiart_clip.faiss"
